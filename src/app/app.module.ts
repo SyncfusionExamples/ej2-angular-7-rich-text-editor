@@ -1,7 +1,6 @@
-import { BrowserModule, } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { RichTextEditorAllModule } from '@syncfusion/ej2-angular-richtexteditor';
 import { NgModule } from '@angular/core';
-import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, FormsModule, RichTextEditorAllModule
+    BrowserModule, RichTextEditorAllModule
   ],
 
   bootstrap: [AppComponent]
